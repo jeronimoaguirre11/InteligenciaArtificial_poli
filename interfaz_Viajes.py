@@ -57,10 +57,11 @@ ttk.Combobox(frame, textvariable=duracion_var, values=["corto", "medio", "largo"
 ttk.Label(frame, text="Actividad:").grid(row=4, column=0, padx=5, pady=5)
 ttk.Combobox(frame, textvariable=actividad_var, values=["piscina", "senderismo", "evento", "trabajo"]).grid(row=4, column=1)
 
-# Botón para generar recomendaciones
+# Boton para generar recomendaciones
 btn = tk.Button(root, text="Obtener recomendaciones", command=mostrar_recomendaciones)
 btn.pack(pady=10)
 
+# boton para limpiar
 btn_limpiar = tk.Button(root, text="Limpiar", command=limpiar_recomendaciones)
 btn_limpiar.pack(pady=5)
 
