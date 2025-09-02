@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-import viajes  # 👈 importamos el archivo viajes.py
+import viajes  # importamos el archivo viajes.py
 
 # Ventana principal
 root = tk.Tk()
